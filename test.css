@@ -1,4 +1,14 @@
-.container-fluid {
-    /* background-color:antiquewhite; */
-    color: red;
+body {
+    background-color: rgb(31, 31, 31);
+}
+
+.le-head {
+    padding: 18px;
+    background-color:rgb(26, 26, 27);
+    color:aliceblue;
+}
+
+.le-body {
+    padding: 20px;
+    text-align: center;
 }
