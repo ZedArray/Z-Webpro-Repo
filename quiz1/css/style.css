@@ -23,3 +23,13 @@ p {
     background-color: rgb(26, 26, 27);
     background-image: linear-gradient(to right, rgb(17, 17, 17) , rgb(59, 59, 59));
 }
+
+.navbar-brand {
+    margin-left: 5px;
+}
+
+.centered {
+    max-width:fit-content; 
+    margin-left: auto; 
+    margin-right: auto;
+}
