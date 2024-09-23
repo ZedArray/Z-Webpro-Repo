@@ -1,35 +1,25 @@
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: #3e3e3e;
-    overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: right;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #a2a2a2;
-    color: rgb(45, 45, 45);
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #151515;
-    color: rgb(255, 255, 255);
-}
-
 body {
-    background-color: rgb(45, 45, 45);
+    background-color: rgb(31, 31, 31);
+    /* background-image: linear-gradient(to right, rgb(48, 48, 48), rgb(17, 17, 17) ); */
+}
+
+.le-head {
+    padding: 18px;
+    background-color:rgb(58, 58, 58);
+    background-image: linear-gradient(to right, rgb(17, 17, 17) , rgb(48, 48, 48), rgb(122, 122, 122));
+    color:aliceblue;
+}
+
+.le-body {
+    padding: 20px;
+    text-align: center;
 }
 
 p {
-    color: white;
+    color: aliceblue;
+}
+
+.navbar {
+    background-color: rgb(26, 26, 27);
+    background-image: linear-gradient(to right, rgb(17, 17, 17) , rgb(59, 59, 59));
 }
