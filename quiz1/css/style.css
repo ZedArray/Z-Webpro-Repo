@@ -43,3 +43,10 @@ p {
     width: 200px;
     height: 100px;
 }
+
+.titles {
+    color: aliceblue; 
+    font-size: 30px; 
+    font-weight: 400px; 
+    text-decoration: underline;
+}
